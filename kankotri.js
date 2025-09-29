@@ -49,14 +49,14 @@ const kankotriData = {
             ]
         },
         {
-            "title": "Darshanabhilashi",
+            "title": "Darshanabhilashi (Makadiya Family)",
             "members": [
-                { "name": "Mr. Prakashkumar Parsotambhai Makadiya" },
-                { "name": "Mr. Kevinkumar Lakhamanbhai Makadiya" },
-                { "name": "Mr. Jaykumar Ravjibhai Makadiya" },
-                { "name": "Miss Nirupa Lakhamanbhai Makadiya" },
-                { "name": "Miss Muskanben Ravjibhai Makadiya" },
-                { "name": "Miss. Krishna Ravjibhai Makadiya" }
+                { "name": "Mr. Prakashkumar Parsotambhai" },
+                { "name": "Mr. Kevinkumar Lakhamanbhai" },
+                { "name": "Mr. Jaykumar Ravjibhai" },
+                { "name": "Miss Nirupa Lakhamanbhai" },
+                { "name": "Miss Muskanben Ravjibhai" },
+                { "name": "Miss Krishna Ravjibhai" }
             ]
         },
         {
@@ -97,7 +97,7 @@ const kankotriData = {
         }
 
     ],
-    "children": [ "Shriya","Shakti","Aditi", "Mahek", "Twisha", "Harshit","Khushi" ]
+    "children": ["Shriya", "Shakti", "Aditi", "Mahek", "Twisha", "Harshit", "Khushi"]
 };
 
 // Function to create floating decorative elements (like petals or stars)
