@@ -97,7 +97,7 @@ const kankotriData = {
         }
 
     ],
-    "children": ["Aditi", "Shriya", "Shakti", "Mahek", "Twisha", "Khushi", "Harshit"]
+    "children": [ "Shriya","Shakti","Aditi", "Mahek", "Twisha", "Harshit","Khushi" ]
 };
 
 // Function to create floating decorative elements (like petals or stars)
