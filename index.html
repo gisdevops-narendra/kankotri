@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Kankotri - Narendra & Parul</title>
+
+    <!-- Google Fonts for elegant typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Cinzel:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for icons like map marker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS for styling the wedding page -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Container for floating decorative elements (like petals, lights) -->
+    <div class="floating-elements" id="floating-elements">
+        <!-- Floating elements will be added dynamically using JavaScript -->
+    </div>
+
+    <div class="container">
+        <!-- Header / Hero Section -->
+        <div class="header-wrapper">
+            <header>
+                <!-- Decorative Mandalas -->
+                <div class="mandala mandala-1"></div>
+                <div class="mandala mandala-2"></div>
+
+                <!-- Decorative floral border -->
+                <div class="floral-border"></div>
+
+                <!-- Header content: title, invitation text, couple names -->
+                <div class="header-content">
+                    <h1>Wedding Invitation</h1>
+
+                     <!-- Front message / From-To -->
+                    <p class="front-message">From our hearts to yours</p>
+
+                    <!-- Countdown timer -->
+                    <div id="countdown" class="countdown">
+                        <span id="days">0</span> Days
+                        <span id="hours">0</span> Hours
+                        <span id="minutes">0</span> Minutes
+                        <span id="seconds">0</span> Seconds
+                    </div>
+
+                    <!-- Invitation message / details about the wedding -->
+                    <div class="invitation-text">
+                        <!-- Opening blessing -->
+                        <p class="blessing-text">
+                            With the blessings of <strong>Lord Buddha</strong> and <strong>Dr. Babasaheb
+                                Ambedkar</strong>, and in the presence of our family and friends,
+                        </p>
+
+                        <!-- Couple introduction -->
+                        <p class="couple-intro">
+                            We joyfully announce the union of <strong>Mr. Narendra</strong>, son of <em>Mrs. Rasillaben
+                                & Mr. Parsotambhai Nathabhai Makadiya</em> of Ukadiya,
+                            with <strong>Miss Parul</strong>, daughter of <em>Mrs. Jayaben & Mr. Govindbhai Nathubhai
+                                Chandera</em> of Semarvav.
+                        </p>
+
+                        <!-- Wedding date & invitation note -->
+                        <p class="wedding-date">
+                            To be solemnised on <strong>Sunday, 30th October 2025</strong>. May their journey together
+                            shine like the full moon.
+                            You are cordially invited, along with your family, to bless the newlyweds and grace the
+                            occasion with your presence.
+                        </p>
+                    </div>
+
+                    <!-- Couple's names and professions -->
+                    <div class="couple-names">
+                        <div class="name-card">
+                            <h3>Narendra</h3>
+                            <p>Software Engineer (GIS)</p>
+                        </div>
+                        <div class="and-symbol">&</div>
+                        <div class="name-card">
+                            <h3>Parul</h3>
+                            <p>H.C. Assistant (Government)</p>
+                        </div>
+                    </div>
+
+                    <!-- Wedding date and blessing note -->
+                    <p id="wedding-date">Sunday, 30th October 2025</p>
+                    <p>With the blessings of our family and friends</p>
+                </div>
+
+            </header>
+        </div>
+
+        <!-- Wedding Events Section -->
+        <section class="section fade-in" id="events-section">
+            <h2 class="section-title">Wedding Events</h2>
+            <div class="events-grid" id="events-list">
+                <!-- Event cards will be dynamically added here using JavaScript -->
+            </div>
+        </section>
+
+        <!-- Families Section -->
+        <section class="section fade-in" id="families-section">
+            <h2 class="section-title">Our Families</h2>
+            <!-- Family cards/details will be dynamically added here using JavaScript -->
+        </section>
+
+        <!-- Children / Younger Members Section -->
+        <section class="section fade-in" id="children-section">
+            <h2 class="section-title">Children / Younger Members</h2>
+            <p style="text-align: center; font-style: italic; margin-bottom: 20px;">
+                "ના તિર સે, ના તલવાર સે હમ પરિવર્તન લાયેંગે બૌધ્ધ-બાબા કે વિચાર સે"
+            </p>
+            <div class="children-list" id="children-list">
+                <!-- Children / younger members will be dynamically added here using JavaScript -->
+            </div>
+        </section>
+
+        <!-- Address / Venue Section -->
+        <section class="section fade-in" id="address-section">
+            <h2 class="section-title">Address / Location</h2>
+            <div class="address-section">
+                <div class="address-card">
+                    <h3 class="address-title">Wedding Venue</h3>
+                    <div class="address-details">
+                        <p>At: Ukadiya</p>
+                        <p>Ta: Veraval</p>
+                        <p>Dist: Gir Somnath</p>
+                        <p>Gujarat, India</p>
+                    </div>
+
+                    <!-- Contact info of wedding coordinators / family members -->
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-name">Parshotambhai</div>
+                            <div class="contact-number">+91 97276 11275</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-name">Ravjibhai</div>
+                            <div class="contact-number">+91 97250 50026</div>
+                        </div>
+                    </div>
+
+                    <!-- Google Maps link to venue -->
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="https://maps.google.com/?q=21.026992,70.435787" target="_blank" class="map-link">
+                            <i class="fas fa-map-marker-alt"></i> View on Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="fade-in">
+            <div class="footer-floral">❀ ❀ ❀</div>
+            <p class="footer-text">We cordially invite you to share in our joy</p>
+            <p class="blessing">"May your union be blessed with eternal love, happiness, and prosperity"</p>
+            <div class="footer-floral">❀ ❀ ❀</div>
+        </footer>
+    </div>
+
+    <!-- JavaScript file to add dynamic content and floating decorations -->
+    <script src="./kankotri.js"></script>
+</body>
+
+</html>
