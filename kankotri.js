@@ -62,26 +62,40 @@ const kankotriData = {
         {
             "title": "Mosal Paksh",
             "members": [
-                { "husband": "Shri Late Arjanbhai Bhikhabhai Vanvi", "wife": "Smt. Gauriben Arjanbhai Vanvi" },
-                { "husband": "Mr. Bhimshinhbhai Arjanbhai Vanvi", "wife": "Mrs. Rajuben Bhimshinhbhai Vanvi" },
-                { "husband": "Mr. Mukeshbhai Arjanbhai Vanvi", "wife": "Mrs. Dudhiben Mukeshbhai Vanvi" }
+                { "husband": "Shri Late Arjanbhai", "wife": "Smt. Gauriben Arjanbhai Vanvi" },
+                { "husband": "Mr. Bhimshinhbhai", "wife": "Mrs. Rajuben Bhimshinhbhai Vanvi" },
+                { "husband": "Mr. Mukeshbhai", "wife": "Mrs. Dudhiben Mukeshbhai Vanvi" }
             ]
         },
         {
             "title": "Fai-Fuva Paksh",
             "members": [
-                { "husband": "Mr. Parsotambhai Alabhai Renuka", "wife": "Mrs. Shantiben Parsotambhai Renuka" },
-                { "husband": "Mr. Rameshbhai Bhimabhai Chavda", "wife": "Mrs. Prabhaben Rameshbhai Chavda" }
+                { "husband": "Mr. Parsotambhai", "wife": "Mrs. Shantiben Parsotambhai Renuka" },
+                { "husband": "Mr. Rameshbhai", "wife": "Mrs. Prabhaben Rameshbhai Chavda" }
             ]
         },
         {
             "title": "Jamai Paksh",
             "members": [
-                { "husband": "Mr. Vallabhbhai Nathubhai Kathad", "wife": "Mrs. Ramaben Vallabhbhai Kathad" },
-                { "husband": "Mr. Nareshbhai Karabhai Rathod", "wife": "Mrs. Mayaben Nareshbhai Rathod" },
-                { "husband": "Mr. Dharmeshbhai Khimabhai Makwana", "wife": "Mrs. Anjaliben Dharmeshbhai Makwana" }
+                { "husband": "Mr. Vallabhbhai", "wife": "Mrs. Ramaben Vallabhbhai Kathad" },
+                { "husband": "Mr. Nareshbhai", "wife": "Mrs. Mayaben Nareshbhai Rathod" },
+                { "husband": "Mr. Dharmeshbhai", "wife": "Mrs. Anjaliben Dharmeshbhai Makwana" }
+            ]
+        },
+        {
+            "title": "Masi-Masa Paksh",
+            "members": [
+                {
+                    "husband": "Late. Dayabhai",
+                    "wife": "Mrs. Hansha Dayabhai Chavda"
+                },
+                {
+                    "husband": "Mr. Muljibhai",
+                    "wife": "Mrs. Parbhaben Muljibhai Solanki"
+                }
             ]
         }
+
     ],
     "children": ["Aditi", "Shriya", "Shakti", "Mahek", "Twisha", "Khushi", "Harshit"]
 };
